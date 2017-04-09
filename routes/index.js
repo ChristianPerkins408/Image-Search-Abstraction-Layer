@@ -2,14 +2,6 @@ module.exports = function(app, db) {
 
   var path = process.cwd();
 
-  app.get('/', function(req, res) {
-  //render index.html for the root route
-
-    res.sendFile(path + '/public/index.html');
-
-  });
-
-
   app.get('/api/latest/imagesearch', function(req, res) {
   //route for the latest 10 searches
 
