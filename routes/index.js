@@ -1,7 +1,5 @@
 module.exports = function(app, db) {
 
-  var path = process.cwd();
-
   app.get('/api/latest/imagesearch', function(req, res) {
   //route for the latest 10 searches
 
