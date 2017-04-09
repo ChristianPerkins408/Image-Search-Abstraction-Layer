@@ -14,7 +14,6 @@ app.use(bodyParser.json());
 var port = process.env.PORT || 3000;
 
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://ChristianPerkins408:Blacklist35@ds021343.mlab.com:21343/image-search-abstraction-layer');
 
 var db = mongoose.connection;
 
