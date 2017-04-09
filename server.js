@@ -11,10 +11,6 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 
-app.get('/favicon.ico', function(req, res) {
-    res.send(204);
-});
-
 var port = process.env.PORT || 3000;
 
 var mongoose = require('mongoose');
