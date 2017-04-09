@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 
-require('dotenv').config({ silent: true });
+//require('dotenv').config({ silent: true });
 var bodyParser = require('body-parser');
 var api = require('./api/search.js');
 var router = require('./routes/index.js');
